@@ -688,6 +688,16 @@ transition-duration: 250;
 border-image: url("fav.svg") 9;
 transition-duration: 250;
 }
+.menu-background {
+    border: inset 3px solid rgba(70,0,0,0.8);
+    background-gradient-direction: vertical;
+    background-gradient-start: rgba(0,10,10,0.85);
+    background-gradient-end: rgba(0,10,10,0.7);
+    box-shadow: 1px 1px 1px 1px rgba(15,0,0,0.0);
+    border-radius: 8px;
+    border-radius-bottomright: 0px;
+    border-radius-bottomleft: 0px;
+}
 .menu-places-box {
 padding: 10px;
 }
@@ -702,7 +712,7 @@ padding-bottom: 0px;
 }
 .menu-applications-box {
 padding-top: 15px;
-padding-left: 0px;
+padding-left: 15px;
 padding-right: 15px;
 padding-bottom: 0px;
 }
@@ -870,7 +880,7 @@ padding-left: 1.3em;
    icon-size: 1em;
 }
 .sound-seek-slider {
-   width: 160px;   
+   width: 160px;
 }
 .sound-volume-menu-item {
 padding: .4em 1.3em;
@@ -944,8 +954,8 @@ text-align: center;
 /* ===================================================================
  * Desklets (desklet.js)
  * ===================================================================*/
-.desklet {        
-color: #fff;    
+.desklet {
+color: #fff;
 }
 .desklet-with-borders {
 border: 0px;
@@ -964,7 +974,7 @@ color: #fff;
 border-radius-bottomleft: 3px;
 border-radius-bottomright: 3px;
 }
-.desklet-header { 
+.desklet-header {
 border-image: url("desklet-header.svg") 3 3 3 3;
 border-radius-topleft: 3px;
 border-radius-topright: 3px;
@@ -973,7 +983,7 @@ font-weight: bold;
 color: #fff;
 padding: 6px;
 }
-.desklet-drag-placeholder { 
+.desklet-drag-placeholder {
 border: 2px solid rgba(0,0,0,0.85);
 background-color: none;
 border-radius: 3px;
